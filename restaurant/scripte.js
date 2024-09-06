@@ -32,3 +32,11 @@ const [a, ,b,[, ,c]] = nestedArray
 console.log(a);
 console.log(b);
 console.log(c);
+
+// spleding (copie d'objet)
+
+const heroesecoffeeKalum ={
+  ... heroecoffee,
+  create: 1990,
+}
+console.log(heroesecoffeeKalum);
